@@ -23,8 +23,8 @@ body,
 }
 
 .container {
-    height: 50%;
-    width: 50%;
+    height: 70%;
+    width: 70%;
     animation: changeGlass 10s infinite;
 }
 
