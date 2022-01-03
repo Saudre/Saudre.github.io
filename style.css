@@ -12,7 +12,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    animation: changeImage 10s infinite;
 }
 
 body,
@@ -26,7 +25,6 @@ body,
 .container {
     height: 50%;
     width: 50%;
-    border-radius: 100%;
     animation: changeGlass 10s infinite;
 }
 
@@ -52,7 +50,7 @@ h1 {
     40% {
         background-color: rgba(250, 0, 250, 0.2);
         backdrop-filter: blur(5px);
-        box-shadow: 0px 0px 20px 100px rgba(250, 0, 250, 0.2);
+        box-shadow: 0px 0px 20px 1px rgba(250, 0, 250, 0.2);
     }
     60% {
         background-color: rgba(250, 250, 0, 0.2);
